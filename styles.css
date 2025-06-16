@@ -9,13 +9,13 @@
     --rose-50: hsl(330, 100%, 98%);
 }
 @font-face {
-  font-family: 'Young Serif';
+  font-family: 'Young Serif', sans-serif;
   src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
 
 
 @font-face {
-  font-family: 'Outfit';
+  font-family: 'Outfit', sans-serif;
   src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
   font-weight: 400 900;
   font-style: normal;
@@ -26,6 +26,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vw;
 }
 main{
     width: 30rem;
@@ -76,7 +77,7 @@ h2{
   padding-left: 0.75rem;
 }
 h3{
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', sans-serif;
     color: var(--brown-800);
     font-size: 1.25rem;
 }
@@ -111,7 +112,7 @@ ol li{
 ol li::marker {
     color: var(--brown-800);
     font-weight: 900;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
 }
 nutritionTable{
     display: flex;
